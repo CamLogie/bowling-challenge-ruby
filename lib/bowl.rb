@@ -8,4 +8,8 @@ class Bowl
     @pins = pins
   end
 
+  # def frame(first_bowl, second_bowl)
+  #   { first_bowl: first_bowl, second_bowl: second_bowl }
+  # end
+
 end

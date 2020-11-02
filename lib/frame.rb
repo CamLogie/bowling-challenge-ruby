@@ -2,7 +2,7 @@ class Frame
 
   attr_reader :frame, :strike, :spare
 
-  def initialize(first_bowl, second_bowl)
+  def initialize(first_bowl, second_bowl = 0)
     @frame = { first_throw: first_bowl, second_throw: second_bowl}
     @strike = false
     @spare = false
